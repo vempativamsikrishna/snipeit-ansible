@@ -9,7 +9,7 @@ if [ ! -d "$HOME/snipeit-ansible" ]; then
 	git clone git://github.com/GR360RY/snipeit-ansible.git "$HOME/snipeit-ansible"
 else
 	"\n\033[0;32m >> Snipeit-Ansible Installation repo is already available\033[0m"
-if
+fi
 cd "$HOME/snipeit-ansible"
 echo "\n\033[0;32m >> Install Snipe-IT\033[0m"
 USER_ID=$(id -u)
